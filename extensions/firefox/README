@@ -1,0 +1,3 @@
+The folder in this directory contains the Greasemonkey generated version of the extension.
+I then used the Greasemonkey compiler at https://arantius.com/misc/greasemonkey/script-compiler.php
+to produce the xpi file that runs without Greasemonkey.
