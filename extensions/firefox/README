@@ -1,11 +1,7 @@
-The Firefox extension was originally generated using Greasemonkey.  I then used the Greasemonkey
-compiler at https://arantius.com/misc/greasemonkey/script-compiler.php to produce 
-an extension that does not require Greasemonkey.  To generate a new version of the extension, do the
-following:
+The Firefox extension was originally generated using Greasemonkey.  I then used the Greasemonkey compiler at https://arantius.com/misc/greasemonkey/script-compiler.php to produce  an extension that does not require Greasemonkey.  To generate a new version of the extension, do the following:
 * cd into the directory rittanacresamazonschoolrewardsl
 * run zip -r brittanacresamazonschoolrewardsl.zip ./*
 * mv brittanacresamazonschoolrewardsl.zip brittanacresamazonschoolrewardsl.xpi
 * mv brittanacresamazonschoolrewardsl.xpi ../
 
-This will create a zip file, rename the zip file with the xpi extension that Firefox expects
-for extensions, and then move the file up a directory.
+This will create a zip file, rename the zip file with the xpi extension that Firefox expects for extensions, and then move the file up a directory.
