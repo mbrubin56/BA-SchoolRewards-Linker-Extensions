@@ -1,0 +1,12 @@
+This project contains two extensions -- one for Firefox and one for Chrome -- that automatically
+tack on to www.amazon.com urls the query string parameter "tag=britacreelem-20", thus ensuring
+that purchases on Amazon are credited to Brittan Acres' account in the Amazon SchoolRewards
+program.  Although people often bookmark such links, they often forget to use that bookmark
+when shopping at Amazon (at least I did!).  So now with the extensions installed, people never
+have to remember to use the bookmark or add on the query string parameter manually: the extensions
+always do it for you.
+
+Note that if you browse to an Amazon url and you already have a "tag=<some value>" query string
+parameter, the extension will respect that and not change it.  Thus, if you participate in multiple
+rewards programs, you can consciously choose to use an Amazon link that participates in one that
+isn't Brittan Acre's School Rewards program.
