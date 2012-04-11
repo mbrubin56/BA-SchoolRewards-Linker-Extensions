@@ -56,7 +56,7 @@ if(window == top) {
     newUrl = null,    
     currTag = parseUri(window.location.href).queryKey.tag;    
     
-    if(!currTag || currTag !== K_BA_TAG_NAME) {
+    if(!currTag) {
         newUrl = replaceQueryString(window.location.href, "tag", K_BA_TAG_NAME);
     }
     
