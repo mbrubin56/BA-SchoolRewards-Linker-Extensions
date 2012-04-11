@@ -1,1 +1,3 @@
-This crx file is the latest compiled version of the unpacked directory.
+This crx file is the latest compiled version of the unpacked directory.  The .pem file is the
+key used to create the crx file using Google's packaging tool (instructions currently found here:
+http://code.google.com/chrome/extensions/packaging.html).
