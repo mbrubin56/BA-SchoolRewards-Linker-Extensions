@@ -1,7 +1,8 @@
 {
     "name": "Brittan Acres Amazon SchoolRewards Linker",
-    "version": "0.2",
+    "version": "0.3",
     "description": "Ensures that your purchases on Amazon get credited to Brittan Acres' SchoolRewards program",
+    "update_url": "http://www.brittanacres.org/amazon/chromeupdate.xml",
     "content_scripts": [
         {
             "matches": ["http://www.amazon.com/*"],
