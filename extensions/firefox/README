@@ -1,7 +1,20 @@
 The Firefox extension was originally generated using Greasemonkey.  I then used the Greasemonkey compiler at https://arantius.com/misc/greasemonkey/script-compiler.php to produce  an extension that does not require Greasemonkey.  To generate a new version of the extension, do the following:
-* cd into the directory rittanacresamazonschoolrewardsl
-* run zip -r brittanacresamazonschoolrewardsl.zip ./*
-* mv brittanacresamazonschoolrewardsl.zip brittanacresamazonschoolrewardsl.xpi
-* mv brittanacresamazonschoolrewardsl.xpi ../
+* cd into the directory brittanacresamazonschoolrewardsl
+* zip -r schoolrewards.zip ./*
+* mv schoolrewards.zip ../
 
 This will create a zip file, rename the zip file with the xpi extension that Firefox expects for extensions, and then move the file up a directory.
+
+Updating the extension is tricky, because it requires that you sign the update.rdf using the same private key
+as used to generate the public key in the install.rdf.  To generate the key and to sign, 
+I used https://developer.mozilla.org/en/McCoy
+
+Here are the steps:
+* Update the install.rdf with the new version
+* Create the xpi using the zip technique above
+* Get the sha1 sum of the xpi file (e.g. sha1sum schoolrewards.xpi)
+* In the firefoxupdate.rdf file, replace the sha1 sum there with the new sum
+* Use McCoy to sign the firefoxupdate.rdf file
+* Upload the firefoxupdate.rdf and new xpi files
+* Test the upload by going to the extension in Firefox, setting it to automatically update, and use the cog menu to check for updates.
+To debug, it's useful to run Firefox from the command line with the -console option (e.g. Applications/Firefox.app/Contents/MacOS/firefox -console)
