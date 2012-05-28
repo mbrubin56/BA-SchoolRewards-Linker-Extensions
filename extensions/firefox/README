@@ -12,7 +12,7 @@ I used https://developer.mozilla.org/en/McCoy
 Here are the steps:
 * Update the install.rdf with the new version
 * Create the xpi using the zip technique above
-* Get the sha1 sum of the xpi file (e.g. sha1sum schoolrewards.xpi)
+* Get the sha1 sum of the xpi file (e.g. sha1sum schoolrewards.xpi or openssl sha1 schoolrewards.xpi)
 * In the firefoxupdate.rdf file, replace the sha1 sum there with the new sum
 * Use McCoy to sign the firefoxupdate.rdf file
 * Upload the firefoxupdate.rdf and new xpi files
