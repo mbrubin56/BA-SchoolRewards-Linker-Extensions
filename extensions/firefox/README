@@ -14,6 +14,7 @@ Here are the steps:
 * Create the xpi using the zip technique above
 * Get the sha1 sum of the xpi file (e.g. sha1sum schoolrewards.xpi or openssl sha1 schoolrewards.xpi)
 * In the firefoxupdate.rdf file, replace the sha1 sum there with the new sum
+* Up the version number in the firefox.rdf file to match the one used in the install.rdf file
 * Use McCoy to sign the firefoxupdate.rdf file
 * Upload the firefoxupdate.rdf and new xpi files
 * Test the upload by going to the extension in Firefox, setting it to automatically update, and use the cog menu to check for updates.
