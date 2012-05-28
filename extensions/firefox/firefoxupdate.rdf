@@ -2,21 +2,21 @@
 <RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$FLkqD1"
+                   NS1:version="0.4">
+    <NS1:targetApplication RDF:resource="rdf:#$ILkqD1"/>
+  </RDF:Description>
   <RDF:Description RDF:about="rdf:#$ILkqD1"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="10"
                    NS1:maxVersion="20"
                    NS1:updateLink="http://www.brittanacres.org/amazon/schoolrewards.xpi"
-                   NS1:updateHash="sha1:2b3feb784ffe3ba7bd7d325c505b4de919941572" />
+                   NS1:updateHash="sha1:0b56b4399c78a2833ef165d70e83c2ae213c015e" />
   <RDF:Seq RDF:about="rdf:#$ELkqD1">
     <RDF:li RDF:resource="rdf:#$FLkqD1"/>
   </RDF:Seq>
   <RDF:Description RDF:about="urn:mozilla:extension:schoolrewards@brittanacres.org"
-                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAFVXJgZKCDffq/n7R4N3Trcwoqh8K9ytgnq11B525oZOdIow5IV0r3kG71kt5ufrcxMCIMwFgwHMMYMZARSx1yujhKcCmN1+ocjEu8Vu6yvBeOe/o9mw8wX6Bop2m9Kff1RGANhFslUXNboW9Zkqb3+1rOqqaFUOStV9JZk8DYyl">
+                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAJmnlxkUQ84gsGhcSqKx9cpx9GVMnw126TcdM7gocNLBkiTsCPAFVFNzALhw+aeszTjieK6FWJ+586Pl2wTjAc2hwbLfnqytRKUhMqTMxNUB+ABUKJXYZeIeGFRQ36q3FxLyCTBN2t6LZJyE4W8fBY+3trnY2bnNot+8UCKAunR7">
     <NS1:updates RDF:resource="rdf:#$ELkqD1"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$FLkqD1"
-                   NS1:version="0.3">
-    <NS1:targetApplication RDF:resource="rdf:#$ILkqD1"/>
   </RDF:Description>
 </RDF:RDF>
