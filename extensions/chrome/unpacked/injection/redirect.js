@@ -41,18 +41,25 @@ function replaceQueryString(url,param,value) {
     }
 }
 
+var EXCEPTIONS_REGEX = /view\.html|\/cart|handle-buy-box\.html/;
+
 if(window == top) {
     var 
     K_TAG_KEY = "tag",
     K_BA_TAG_NAME = "britacreelem-20",
     newUrl = null,    
-    currTag = parseUri(window.location.href).queryKey.tag;    
+    currTag = null,
+    uri = window.location.href;
     
-    if(!currTag) {
-        newUrl = replaceQueryString(window.location.href, "tag", K_BA_TAG_NAME);
-    }
-    
-    if(newUrl) {
-        window.location = newUrl;
+    if(!uri.match(EXCEPTIONS_REGEX)) {
+		currTag = parseUri(uri).queryKey.tag;    
+		
+		if(!currTag) {
+			newUrl = replaceQueryString(window.location.href, "tag", K_BA_TAG_NAME);
+		}
+		
+		if(newUrl) {
+			window.location.href = newUrl;
+		}
     }
 }
