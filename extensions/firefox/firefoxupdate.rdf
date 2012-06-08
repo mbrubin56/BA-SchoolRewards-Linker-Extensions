@@ -5,18 +5,18 @@
   <RDF:Seq RDF:about="rdf:#$ELkqD1">
     <RDF:li RDF:resource="rdf:#$FLkqD1"/>
   </RDF:Seq>
-  <RDF:Description RDF:about="rdf:#$FLkqD1"
-                   NS1:version="0.5">
-    <NS1:targetApplication RDF:resource="rdf:#$ILkqD1"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:extension:schoolrewards@brittanacres.org"
-                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAE7mmSlivv/W8Jdf3kiu6hpoGS2jGjFl/yGNFVRi7YrUgmujgOAwh7SaXsgqIH7b1mlClsd9VFDT9K7u/bbMC6r1HFrQwZx+EPj1+ONX0O/k1nODCl2iamBQU+3HvEr2N3yihdv9ML0UupdViXLOo68zUiFPIp0qNdFIHRZcMnDO">
-    <NS1:updates RDF:resource="rdf:#$ELkqD1"/>
-  </RDF:Description>
   <RDF:Description RDF:about="rdf:#$ILkqD1"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="10"
                    NS1:maxVersion="20"
                    NS1:updateLink="http://www.brittanacres.org/amazon/schoolrewards.xpi"
-                   NS1:updateHash="sha1:5e3032cced5164432fed7020ab45b8c6ff5e57e6" />
+                   NS1:updateHash="sha1:4d39730448365f225245c0bb7aecb23473f099e9" />
+  <RDF:Description RDF:about="rdf:#$FLkqD1"
+                   NS1:version="0.5">
+    <NS1:targetApplication RDF:resource="rdf:#$ILkqD1"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:extension:schoolrewards@brittanacres.org"
+                   NS1:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAA+yGBgnhSATte7XBwEws0itY67BBDIpxomvgr6peH5t1KhgrS1WDEaFvv/ohDFvKEPOMYWxXDyHGJHdwC2pZhVJA8RNSRTZOgz5pYIUJ6QXpGXSIElMfEpQZo1e2tD2hnmBy/Fiz4yjrbj/fnaEz0mdCgY4ZptTtSYBbPvzLwCw">
+    <NS1:updates RDF:resource="rdf:#$ELkqD1"/>
+  </RDF:Description>
 </RDF:RDF>

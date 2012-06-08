@@ -41,7 +41,7 @@ function replaceQueryString(url,param,value) {
     }
 }
 
-var EXCEPTIONS_REGEX = /view\.html|\/cart|handle-buy-box\.html/;
+var EXCEPTIONS_REGEX = /view\.html|\/cart|handle-buy-box\.html|\/signin/;
 
 if(window == top) {
     var 

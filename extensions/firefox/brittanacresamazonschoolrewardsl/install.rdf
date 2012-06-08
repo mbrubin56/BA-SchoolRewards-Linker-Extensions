@@ -5,7 +5,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="schoolrewards@brittanacres.org"
                    em:name="brittanacresamazonschoolrewardsl"
-                   em:version="0.5"
+                   em:version="0.6"
                    em:description="Ensures that your purchases on Amazon get credited to Brittan Acres' SchoolRewards program"
                    em:creator="Mark Rubin"
                    em:updateURL="http://www.brittanacres.org/amazon/firefoxupdate.rdf"
